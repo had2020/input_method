@@ -1,5 +1,4 @@
-use std::borrow::Cow;
-use std::io::{self, Read};
+use std::io::{self, Read, Write};
 use std::thread::sleep;
 use std::time::Duration;
 
@@ -161,6 +160,7 @@ pub fn key_pressed() -> &'static str {
 // and once they press enter it is submited, just like th python input method.
 pub fn input() -> String {
     let mut collected_text: String = String::new();
+
     loop {
         let mut key_buffer = [0u8; 3];
 
@@ -284,6 +284,8 @@ pub fn input() -> String {
             collected_text.pop();
         } else {
             collected_text.push_str(&pressed_key);
+            print!("\r{}", collected_text);
+            io::stdout().flush().unwrap();
         }
     }
     collected_text
