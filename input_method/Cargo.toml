@@ -1,0 +1,11 @@
+[package]
+name = "input_method"
+version = "0.1.0"
+edition = "2021"
+description = "A tiny Rust crate that provides a Python-like input() function for CLI apps."
+license = "MIT"
+repository = "https://github.com/had2020/input_method"
+authors = ["Hadrian Lazic <https://github.com/had2020>"]
+
+
+[dependencies]
