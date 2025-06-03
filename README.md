@@ -4,6 +4,8 @@
 [![crates.io](https://img.shields.io/crates/v/input_method.svg)](https://crates.io/crates/input_method)
 [![Downloads](https://img.shields.io/crates/d/input_method.svg)](https://crates.io/crates/input_method)
 
+https://crates.io/crates/input_method
+
 
 A **tiny, opinionated Rust crate** that brings a Python-style input method to your CLI apps. Ideal for quick scripts, REPLs, and simple text-based interactions.
 
