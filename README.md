@@ -46,6 +46,6 @@ fn main() {
 
 # See Github for Up To Date Docs
 Leave a star to be a star! ⭐
-- https://github.com/had2020/Last-Straw
+- https://github.com/had2020/input_method
 
 PRs welcome, keep it simple.
